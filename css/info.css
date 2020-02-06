@@ -1,0 +1,59 @@
+html, body {
+    background-image: url('/images/BlackSolid.jpg');
+    background-attachment: fixed;
+    background-size: fit-content;
+    background-position: center;
+}
+
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav{
+    background-color: rgba(36, 65, 68);
+}
+.nav-link , .navbar-brand{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1rem;
+     color: #f4f4f4;
+      cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: black;}
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+
+.hrefs {
+    margin-top: 20rem;
+}
+
+.accounts {
+    margin: 17px;
+    background-color: rgba(36, 65, 68, 0.8)
+}
+
+.h-item{color: #f4f4f4; cursor: pointer;}
+.h-item:hover{ background: #f4f4f4; color: black;}
+
+.contact {
+    text-align: end;
+}
+
+@media (max-width: 767.98px) {
+    html {
+        font-size: 8px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .brand-icon {
+        width: 30px;
+        height: 25px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+}

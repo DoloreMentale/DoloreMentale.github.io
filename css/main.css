@@ -1,0 +1,82 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-image: url('../images/bg.png');
+    background-attachment: fixed;
+    background-size: fit-content;
+    background-position: center;
+}
+
+nav {
+    background-color: rgba(36, 65, 68, 0.8);
+}
+
+.nav-link , .navbar-brand{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1rem;
+     color: #f4f4f4;
+      cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: black;}
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+
+.h-item{color: #f4f4f4; cursor: pointer; margin-right: 1em !important;}
+.h-item:hover{ background: #f4f4f4; color: black;}
+
+.row {
+    top: 60px;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+}
+
+.main {
+    background-color: rgba(36, 65, 68, 0.8);
+}
+
+.social{
+    top: 5px;
+}
+
+.contact {
+    top: 5px;
+    text-align: end;
+}
+
+.footer {
+    font-size: smaller;
+    top: 5rem;
+}
+
+@media (max-width: 767.98px) {
+    html {
+        font-size: 8px;
+    }
+
+    .row {
+        top: 8rem;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .brand-icon {
+        width: 30px;
+        height: 25px;
+    }
+
+    .p-2 {
+        margin: 15px;
+    }
+    
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .contact {
+        text-align: start;
+    }
+
+}
